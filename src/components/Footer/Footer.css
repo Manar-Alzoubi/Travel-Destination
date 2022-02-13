@@ -1,0 +1,28 @@
+div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid  darkmagenta;
+    background-color:  burlywood;
+  }
+
+a{
+    text-align: center;
+    justify-content: center;
+    color:  darkmagenta;
+    background-color: burlywood;
+    height: 100px;
+    display:contents;
+    /* padding: 5px 5px; */
+}
+
+a.active {
+    color: white;
+    background-color: #aa0478;
+  }
+
+  
+  a:hover:not(.active) {
+    background-color: rgb(221, 221, 221);
+  }
