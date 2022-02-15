@@ -1,16 +1,11 @@
 import'./Tours.css';
+import Tour from './Tour/Tour';
+import Data from  "../../data/db.json";
 
 function Tours (props){
 return (
     <>
-    {props.data.map(data => {
-        return(
-        <div>
-            <img src={data.image}  alt={data.name}/> 
-            <h3>name: {data.name}</h3>
-        </div>
-        );
-    })}
+                 <Tour Data = {Data}/>
     </>
 );
 }
